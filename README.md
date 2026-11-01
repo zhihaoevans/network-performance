@@ -6,6 +6,7 @@
 
 | 目录 | 内容 |
 | --- | --- |
+| [概念与术语](concepts/README.md) | 中英文术语、指标定义、易混概念与计算示例 |
 | [基础与方法](fundamentals/README.md) | 吞吐量、PPS、延迟、基线与实验设计 |
 | [Linux 网络栈](linux-networking/README.md) | 收发路径、TCP、软中断、RSS/RPS |
 | [网卡与硬件](nic-and-hardware/README.md) | 队列、NUMA、PCIe、offload |
