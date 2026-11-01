@@ -1,23 +1,9 @@
-# DPDK 性能优化
+# DPDK 数据平面
 
-## 待研究主题
+- [testpmd 转发基线](baseline-and-testpmd.md)
+- [mbuf 所有权、内存池与批处理](memory-and-batching.md)
+- [多核扩展与异步检测闭环](multicore-and-detection.md)
 
-- [ ] EAL、lcore、hugepages 与 NUMA
-- [ ] PMD、队列、轮询与批处理
-- [ ] mbuf、mempool 与内存访问
-- [ ] RSS、rte_flow 与流量分配
-- [ ] run-to-completion 与 pipeline
-- [ ] 锁、ring、缓存局部性与多核扩展
-- [ ] testpmd 基线与流量发生器配置
+这些内容是原理与工程参考，具体性能结论需结合运行版本和实验。新增实测时使用[实验模板](../templates/experiment.md)，并记录限制与恢复方法。
 
-## 起步任务
-
-先记录固定帧长、流数、核数和队列配置的转发基线。
-
-## 笔记索引
-
-当前尚无专题笔记。使用[知识笔记模板](../templates/note.md)新增文件后，在此补充链接、状态与适用版本。
-
-## 实验要求
-
-调优结论关联[实验报告](../templates/experiment.md)，记录收益、代价与适用范围。
+[术语查询](../concepts/README.md) · [实验目录](../labs/README.md) · [返回首页](../README.md)

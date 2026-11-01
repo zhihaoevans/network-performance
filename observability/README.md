@@ -1,22 +1,11 @@
-# 性能观测与定位
+# 性能观测
 
-## 待研究主题
+- [只读命令速查](commands.md)
+- [perf/eBPF 定位热点与等待](perf-and-ebpf.md)
+- [抓包与计数器证据链](capture-and-counters.md)
 
-- [ ] 系统与进程资源占用
-- [ ] 网卡、协议栈与 socket 计数器
-- [ ] perf 采样、调用栈与火焰图
-- [ ] eBPF 跟踪与事件关联
-- [ ] tcpdump/Wireshark 与抓包位置
-- [ ] 时间窗口、时钟与观测开销
+- [硬件时间戳与单向延迟](timestamping.md)
 
-## 起步任务
+这些内容是原理与工程参考，具体性能结论需结合运行版本和实验。新增实测时使用[实验模板](../templates/experiment.md)，并记录限制与恢复方法。
 
-为具体问题列出指标、采集位置和预期信号。
-
-## 笔记索引
-
-当前尚无专题笔记。使用[知识笔记模板](../templates/note.md)新增文件后，在此补充链接、状态与适用版本。
-
-## 实验要求
-
-调优结论关联[实验报告](../templates/experiment.md)，记录收益、代价与适用范围。
+[术语查询](../concepts/README.md) · [实验目录](../labs/README.md) · [返回首页](../README.md)

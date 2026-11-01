@@ -14,3 +14,8 @@ perf.data*
 *.core
 results/raw/
 tmp/
+
+# Generated benchmark records
+results/
+summary.csv
+*.pyc

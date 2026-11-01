@@ -1,22 +1,14 @@
 # Linux 网络栈
 
-## 待研究主题
+- [收发路径与观测点](packet-path.md)
+- [TCP 吞吐量、窗口与连接](tcp.md)
+- [UDP 包速率与损失](udp.md)
+- [RSS/RPS/RFS/XPS 与 CPU 放置](queues-and-affinity.md)
+- [出口队列、整形与节奏](qdisc-and-pacing.md)
+- [参数决策与恢复清单](parameter-guide.md)
 
-- [ ] 收发包路径、NAPI 与 softirq
-- [ ] RSS、RPS、RFS、XPS 与 CPU 亲和性
-- [ ] TCP 窗口、拥塞控制、重传与 socket 缓冲区
-- [ ] qdisc、队列积压与流量整形
-- [ ] GRO/GSO/TSO 与观测口径
-- [ ] socket I/O、批处理与应用开销
+- [IPv6、隧道与 MTU](ipv6-and-tunnels.md)
 
-## 起步任务
+这些内容是原理与工程参考，具体性能结论需结合运行版本和实验。新增实测时使用[实验模板](../templates/experiment.md)，并记录限制与恢复方法。
 
-从收包路径开始，为每一层补充观测点与指标。
-
-## 笔记索引
-
-当前尚无专题笔记。使用[知识笔记模板](../templates/note.md)新增文件后，在此补充链接、状态与适用版本。
-
-## 实验要求
-
-调优结论关联[实验报告](../templates/experiment.md)，记录收益、代价与适用范围。
+[术语查询](../concepts/README.md) · [实验目录](../labs/README.md) · [返回首页](../README.md)

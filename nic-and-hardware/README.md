@@ -1,21 +1,8 @@
 # 网卡与硬件
 
-## 待研究主题
+- [链路、ring、中断合并与 offload](nic-tuning.md)
+- [NUMA、缓存与内存布局](numa-and-memory.md)
 
-- [ ] 网卡队列、ring 与中断合并
-- [ ] NUMA、CPU/内存/网卡拓扑
-- [ ] PCIe、DMA 与内存带宽
-- [ ] 缓存局部性、伪共享与核绑定
-- [ ] offload 能力、驱动与固件版本
+这些内容是原理与工程参考，具体性能结论需结合运行版本和实验。新增实测时使用[实验模板](../templates/experiment.md)，并记录限制与恢复方法。
 
-## 起步任务
-
-记录实验机器的拓扑，设计本地与跨 NUMA 对比。
-
-## 笔记索引
-
-当前尚无专题笔记。使用[知识笔记模板](../templates/note.md)新增文件后，在此补充链接、状态与适用版本。
-
-## 实验要求
-
-调优结论关联[实验报告](../templates/experiment.md)，记录收益、代价与适用范围。
+[术语查询](../concepts/README.md) · [实验目录](../labs/README.md) · [返回首页](../README.md)
