@@ -1,0 +1,16 @@
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pcap
+*.pcapng
+perf.data*
+*.core
+results/raw/
+tmp/
