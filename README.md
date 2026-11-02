@@ -4,6 +4,8 @@
 
 面向 Linux 网络/系统开发、DPDK 数据平面、流量检测和高性能服务。既可按路径学习，也可在排障时按症状查阅。
 
+[在 Codespaces 打开 DPDK 学习环境](https://codespaces.new/zhihaoevans/network-performance) · [环境说明与验收](dpdk/codespaces.md)
+
 ## 快速入口
 
 - 初次使用：[环境准备与开始步骤](GETTING_STARTED.md)

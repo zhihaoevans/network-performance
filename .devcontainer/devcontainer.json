@@ -1,0 +1,34 @@
+{
+  "name": "Network Performance · DPDK 24.11.7",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "remoteUser": "vscode",
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "8gb",
+    "storage": "32gb"
+  },
+  "capAdd": [
+    "SYS_PTRACE"
+  ],
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "llvm-vs-code-extensions.vscode-clangd",
+        "ms-vscode.cpptools",
+        "ms-python.python"
+      ],
+      "settings": {
+        "C_Cpp.intelliSenseEngine": "disabled",
+        "clangd.arguments": [
+          "--background-index"
+        ]
+      }
+    }
+  },
+  "forwardPorts": [],
+  "shutdownAction": "stopContainer"
+}

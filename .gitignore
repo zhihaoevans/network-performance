@@ -19,3 +19,7 @@ tmp/
 results/
 summary.csv
 *.pyc
+
+# Codespaces DPDK lab output
+.local/
+examples/dpdk-mbuf/build/

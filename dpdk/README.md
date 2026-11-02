@@ -1,5 +1,8 @@
 # DPDK 数据平面
 
+- [Codespaces 开发环境与功能验收](codespaces.md)
+- [第一个 mbuf 程序](../examples/dpdk-mbuf/README.md)
+
 - [testpmd 转发基线](baseline-and-testpmd.md)
 - [mbuf 所有权、内存池与批处理](memory-and-batching.md)
 - [多核扩展与异步检测闭环](multicore-and-detection.md)
