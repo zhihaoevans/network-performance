@@ -2,11 +2,16 @@
 
 状态：参考说明；未在本仓库目标机器上实测。资料核对日期：2026-11-03。
 
-本目录供 Linux 网络栈、DPDK 和高性能服务分析使用。每个数字必须连同架构、指标定义和条件一起引用。当前数值样例以 Intel Skylake Server / Cascade Lake 为范围；AMD、Arm 及其他 Intel 代际需查各自资料并测量。
+本目录供 Linux 网络栈、DPDK 和高性能服务分析使用。每个数字必须连同架构、指标定义和条件一起引用。CPU/cache/TLB 数值样例以 Intel Skylake Server / Cascade Lake 为范围；另收录 PCIe Gen1–5 演算、ConnectX-6 Dx 与 Samsung 990 PRO 规格样例。其他型号需查各自资料并测量。
 
 - [CPU 周期与时间换算](cycles.md)
 - [Cache 容量、时延与数据口径](cache.md)
 - [内存、NUMA 与带宽](memory.md)
+- [PCIe 链路与带宽](pcie.md)
+- [网卡速率与 PPS](nic.md)
+- [TLB 与地址翻译](tlb.md)
+- [核间互连与 Cache-to-cache](interconnect.md)
+- [SSD / NVMe 性能数据](storage.md)
 - [目标机器测量与记录](measurement.md)
 
 ## 引用规则
