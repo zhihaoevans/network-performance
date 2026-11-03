@@ -22,6 +22,7 @@
 | [概念与术语](concepts/README.md) | 吞吐、PPS、P99、BDP、协议与硬件词汇 |
 | [基础与方法](fundamentals/README.md) | 目标、假设、证据链、负载模型、统计边界 |
 | [Linux 网络栈](linux-networking/README.md) | 收发路径、TCP/UDP、分流、qdisc、参数决策 |
+| [硬件性能数据](hardware-performance/README.md) | CPU 周期、cache 时延、内存带宽与测量口径 |
 | [网卡与硬件](nic-and-hardware/README.md) | ring、中断合并、offload、NUMA、缓存 |
 | [DPDK](dpdk/README.md) | testpmd、mbuf/mempool、burst、多核、检测 |
 | [性能观测](observability/README.md) | 命令、perf/eBPF、抓包与计数器 |
